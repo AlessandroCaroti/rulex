@@ -1,6 +1,6 @@
 //v7 Flow 1d93c001_AzureBilling&AlessandroCaroti
 //Flow definition
-fl = Flow(name = "1d93c001_AzureBilling&AlessandroCaroti", info = {"created_on":"2024-06-10 10:35:24","created_by":None,"last_modified":"2024-07-04 19:43:36","last_modified_user":None}, exec_params = None)
+fl = Flow(name = "1d93c001_AzureBilling&AlessandroCaroti", info = {"created_on":"2024-06-10 10:35:24","created_by":None,"last_modified":"2024-07-23 11:17:49","last_modified_user":None}, exec_params = None)
 //Task Creation
 fl.createTask(name = "Budget", category = "datamanager", position = "{\"x\":2420.000, \"y\":220.000, \"z\":46}", status = 2, priority = 0)
 fl.createTask(name = "TEST", category = "datamanager", position = "{\"x\":3135.000, \"y\":-55.000, \"z\":57}", status = 2, priority = 0)
@@ -177,7 +177,7 @@ fl.setVariable(varname = "managementGroupList", type = "code", value = "[\"Rulex
 fl.setVariable(varname = "modulePath", type = "code", value = "\"/Shared Documents/AzureProject/\"", issensitive = 0)
 fl.setVariable(varname = "moduleSource", type = "code", value = "@sorcesPath+\"/ProductDevelopment\"", issensitive = 0)
 fl.setVariable(varname = "resourceGroupList", type = "code", value = "[\"rg1\", \"rg2\"]", issensitive = 0)
-fl.setVariable(varname = "sorcesPath", type = "code", value = "\"//RulexDesktop/SourceCollection\"", issensitive = 0)
+fl.setVariable(varname = "sorcesPath", type = "code", value = "\"//RulexDesktop/Env_testcypress/SourceCollection\"", issensitive = 0)
 fl.setVariable(varname = "subscriptionList", type = "code", value = "[\"sub1\", \"sub2\"]", issensitive = 0)
 //Load Data
 //Set Plots
