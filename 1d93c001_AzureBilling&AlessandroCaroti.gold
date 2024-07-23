@@ -4,30 +4,30 @@ fl = Flow(name = "1d93c001_AzureBilling&AlessandroCaroti", info = {"created_on":
 //Task Creation
 fl.createTask(name = "Budget", category = "datamanager", position = "{\"x\":2420.000, \"y\":220.000, \"z\":46}", status = 2, priority = 0)
 fl.createTask(name = "TEST", category = "datamanager", position = "{\"x\":3135.000, \"y\":-55.000, \"z\":57}", status = 2, priority = 0)
-fl.createTask(name = "annualBillingAndBudget_Department", category = "datamanager", position = "{\"x\":2695.000, \"y\":-275.000, \"z\":58}", status = 2, priority = 0)
-fl.createTask(name = "annualBilling_Department", category = "datamanager", position = "{\"x\":2420.000, \"y\":-275.000, \"z\":47}", status = 2, priority = 0)
+fl.createTask(name = "annualBillingAndBudget_Department", category = "datamanager", position = "{\"x\":2695.000, \"y\":-495.000, \"z\":58}", status = 2, priority = 0)
+fl.createTask(name = "annualBilling_Department", category = "datamanager", position = "{\"x\":2420.000, \"y\":-495.000, \"z\":47}", status = 2, priority = 0)
 fl.createTask(name = "bd_importRgTags", category = "sourcesql", position = "{\"x\":1870.000, \"y\":55.000, \"z\":37}", status = 2, priority = 0)
 fl.createTask(name = "concat1", category = "concat", position = "{\"x\":3025.000, \"y\":-55.000, \"z\":56}", status = 2, priority = 0)
 fl.createTask(name = "dataman2", category = "datamanager", position = "{\"x\":1870.000, \"y\":-55.000, \"z\":61}", status = 2, priority = 0)
 fl.createTask(name = "dataman3", category = "datamanager", position = "{\"x\":2860.000, \"y\":55.000, \"z\":55}", status = 2, priority = 0)
 fl.createTask(name = "dataman4", category = "datamanager", position = "{\"x\":2310.000, \"y\":220.000, \"z\":45}", status = 2, priority = 0)
-fl.createTask(name = "dataman8", category = "datamanager", position = "{\"x\":2255.000, \"y\":-605.000, \"z\":23}", status = 2, priority = 0)
-fl.createTask(name = "dataman9", category = "datamanager", position = "{\"x\":2640.000, \"y\":-605.000, \"z\":26}", status = 2, priority = 0)
-fl.createTask(name = "db_exportRgBilling", category = "sinkdb", position = "{\"x\":2750.000, \"y\":-605.000, \"z\":59}", status = 2, priority = 0)
+fl.createTask(name = "dataman8", category = "datamanager", position = "{\"x\":2255.000, \"y\":-880.000, \"z\":23}", status = 2, priority = 0)
+fl.createTask(name = "dataman9", category = "datamanager", position = "{\"x\":2640.000, \"y\":-880.000, \"z\":26}", status = 2, priority = 0)
+fl.createTask(name = "db_exportRgBilling", category = "sinkdb", position = "{\"x\":2750.000, \"y\":-880.000, \"z\":59}", status = 0, priority = 0)
 fl.createTask(name = "db_importRgBilling", category = "sourcesql", position = "{\"x\":1760.000, \"y\":-55.000, \"z\":60}", status = 2, priority = 0)
-fl.createTask(name = "db_importRgList", category = "sourcesql", position = "{\"x\":2145.000, \"y\":-605.000, \"z\":37}", status = 2, priority = 0)
+fl.createTask(name = "db_importRgList", category = "sourcesql", position = "{\"x\":2145.000, \"y\":-880.000, \"z\":37}", status = 2, priority = 0)
 fl.createTask(name = "excel1", category = "sourceexcel", position = "{\"x\":2200.000, \"y\":220.000, \"z\":40}", status = 2, priority = 0)
 fl.createTask(name = "join1", category = "join", position = "{\"x\":2585.000, \"y\":-55.000, \"z\":42}", status = 2, priority = 0)
 fl.createTask(name = "join2", category = "join", position = "{\"x\":2035.000, \"y\":-55.000, \"z\":30}", status = 2, priority = 0)
-fl.createTask(name = "join3", category = "join", position = "{\"x\":2585.000, \"y\":-275.000, \"z\":48}", status = 2, priority = 0)
-fl.createTask(name = "join4", category = "join", position = "{\"x\":2585.000, \"y\":-165.000, \"z\":51}", status = 2, priority = 0)
-fl.createTask(name = "module_requestRgBilling", category = "sourceprc", position = "{\"x\":2530.000, \"y\":-605.000, \"z\":24}", status = 2, priority = 0)
+fl.createTask(name = "join3", category = "join", position = "{\"x\":2585.000, \"y\":-495.000, \"z\":48}", status = 2, priority = 0)
+fl.createTask(name = "join4", category = "join", position = "{\"x\":2585.000, \"y\":-275.000, \"z\":51}", status = 2, priority = 0)
+fl.createTask(name = "module_requestRgBilling", category = "sourceprc", position = "{\"x\":2530.000, \"y\":-880.000, \"z\":24}", status = 2, priority = 0)
 fl.createTask(name = "monthlyBillingAndBudget_Department", category = "datamanager", position = "{\"x\":2695.000, \"y\":-55.000, \"z\":44}", status = 2, priority = 0)
 fl.createTask(name = "monthlyBilling_Department", category = "datamanager", position = "{\"x\":2255.000, \"y\":-55.000, \"z\":32}", status = 2, priority = 0)
 fl.createTask(name = "monthlyBilling_ResourceGroup", category = "datamanager", position = "{\"x\":2145.000, \"y\":-55.000, \"z\":31}", status = 2, priority = 0)
-fl.createTask(name = "quarterlyBillingAndBudget_Department", category = "datamanager", position = "{\"x\":2695.000, \"y\":-165.000, \"z\":53}", status = 2, priority = 0)
-fl.createTask(name = "quarterlyBilling_Department", category = "datamanager", position = "{\"x\":2420.000, \"y\":-165.000, \"z\":50}", status = 2, priority = 0)
-fl.createTask(name = "rtvars2_cpy", category = "runtimevars", position = "{\"x\":2365.000, \"y\":-605.000, \"z\":15}", status = 2, priority = 2)
+fl.createTask(name = "quarterlyBillingAndBudget_Department", category = "datamanager", position = "{\"x\":2695.000, \"y\":-275.000, \"z\":53}", status = 2, priority = 0)
+fl.createTask(name = "quarterlyBilling_Department", category = "datamanager", position = "{\"x\":2420.000, \"y\":-275.000, \"z\":50}", status = 2, priority = 0)
+fl.createTask(name = "rtvars2_cpy", category = "runtimevars", position = "{\"x\":2365.000, \"y\":-880.000, \"z\":15}", status = 2, priority = 2)
 //Task Load Options
 fl.changeOption(name_task = "bd_importRgTags", name_option = "querylist", value = "[\"Select id, department FROM \\\"public\\\".\\\"resource_group_tag\\\"\"]")
 fl.changeOption(name_task = "bd_importRgTags", name_option = "type", value = "@databaseSource")
@@ -84,7 +84,6 @@ fl.createLink(parent = "monthlyBillingAndBudget_Department", child = "dataman3",
 fl.createLink(parent = "excel1", child = "dataman4", ind = 0)
 fl.createLink(parent = "db_importRgList", child = "dataman8", ind = 0)
 fl.createLink(parent = "module_requestRgBilling", child = "dataman9", ind = 0)
-fl.createLink(parent = "dataman9", child = "db_exportRgBilling", ind = 0)
 fl.createLink(parent = "monthlyBilling_Department", child = "join1", ind = 0)
 fl.createLink(parent = "Budget", child = "join1", ind = 1)
 fl.createLink(parent = "dataman2", child = "join2", ind = 0)
@@ -168,7 +167,7 @@ fl.setHistoryCode(name = "quarterlyBilling_Department", code = "//DATASET OPERAT
 fl.setHistoryCode(name = "quarterlyBilling_Department", code = "//DATASET OPERATION\n//MAKE PERSISTENT\nself.dataset.save()\n", id = 5, status = 2)
 //Set Events
 //Set Graphics
-fl.setGraphics(graphics = "[{\"key\":\"Rounded rectangle1\",\"figure\":\"RoundedRectangle\",\"fillInfo\":{\"__gohashid\":246689,\"v\":true,\"qa\":{\"__gohashid\":75,\"oa\":\"Solid\",\"u\":0},\"fl\":\"#b4dfc8\",\"Dd\":{\"x\":null,\"y\":null,\"offsetX\":0,\"offsetY\":0,\"v\":true},\"sl\":{\"x\":null,\"y\":null,\"offsetX\":0,\"offsetY\":0,\"v\":true},\"jt\":0,\"Vr\":null,\"je\":null,\"Ks\":null,\"ke\":null,\"gl\":0,\"Au\":0},\"fill\":\"#b4dfc8\",\"brush\":\"Solid\",\"stroke\":\"#000000\",\"strokeWidth\":3,\"opacity\":1,\"category\":\"widgets\",\"width\":813,\"height\":282,\"angle\":0,\"zOrder\":13,\"dashType\":\"Solid line\",\"label\":\"Rounded rectangle1\",\"loc\":\"2475.000 -605.000\"},{\"key\":\"Tex1\",\"category\":\"textwidgets\",\"width\":973,\"height\":83,\"angle\":0,\"zOrder\":62,\"fillInfo\":false,\"fill\":\"#ffffff\",\"brush\":\"Transparent\",\"stroke\":\"#000000\",\"strokeWidth\":0,\"dashType\":\"Solid line\",\"opacity\":1,\"text\":\"Billing azure\",\"color\":\"#000000\",\"font\":\"normal normal normal 30pt Roboto\",\"family\":\"Roboto\",\"size\":30,\"bold\":false,\"italic\":false,\"isUnderline\":false,\"textAlign\":\"center\",\"verticalAlign\":\"center\",\"label\":\"Tex1\",\"loc\":\"2475.000 -770.000\"}]")
+fl.setGraphics(graphics = "[{\"key\":\"Rounded rectangle1\",\"figure\":\"RoundedRectangle\",\"fillInfo\":{\"__gohashid\":246689,\"v\":true,\"qa\":{\"__gohashid\":75,\"oa\":\"Solid\",\"u\":0},\"fl\":\"#b4dfc8\",\"Dd\":{\"x\":null,\"y\":null,\"offsetX\":0,\"offsetY\":0,\"v\":true},\"sl\":{\"x\":null,\"y\":null,\"offsetX\":0,\"offsetY\":0,\"v\":true},\"jt\":0,\"Vr\":null,\"je\":null,\"Ks\":null,\"ke\":null,\"gl\":0,\"Au\":0},\"fill\":\"#b4dfc8\",\"brush\":\"Solid\",\"stroke\":\"#000000\",\"strokeWidth\":3,\"opacity\":1,\"category\":\"widgets\",\"width\":813,\"height\":282,\"angle\":0,\"zOrder\":13,\"dashType\":\"Solid line\",\"label\":\"Rounded rectangle1\",\"loc\":\"2475.000 -880.000\"},{\"key\":\"Tex1\",\"category\":\"textwidgets\",\"width\":973,\"height\":83,\"angle\":0,\"zOrder\":62,\"fillInfo\":false,\"fill\":\"#ffffff\",\"brush\":\"Transparent\",\"stroke\":\"#000000\",\"strokeWidth\":0,\"dashType\":\"Solid line\",\"opacity\":1,\"text\":\"Billing azure\",\"color\":\"#000000\",\"font\":\"normal normal normal 30pt Roboto\",\"family\":\"Roboto\",\"size\":30,\"bold\":false,\"italic\":false,\"isUnderline\":false,\"textAlign\":\"center\",\"verticalAlign\":\"center\",\"label\":\"Tex1\",\"loc\":\"2475.000 -1045.000\"}]")
 //Set Variables
 fl.setVariable(varname = "databaseSource", type = "code", value = "@sorcesPath+\"/DB - MasterData_cafe\"", issensitive = 0)
 fl.setVariable(varname = "defaultAnnualBudget", type = "code", value = "1000", issensitive = 0)
@@ -184,3 +183,5 @@ fl.setVariable(varname = "sorcesPathInstaller", type = "code", value = "\"//Rule
 fl.setVariable(varname = "subscriptionList", type = "code", value = "[\"sub1\", \"sub2\"]", issensitive = 0)
 //Load Data
 //Set Plots
+//Set Telemetry
+//Set Documentation
