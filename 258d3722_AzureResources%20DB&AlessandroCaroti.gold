@@ -5,6 +5,7 @@ fl = Flow(name = "258d3722_AzureResources%20DB&AlessandroCaroti", info = {"creat
 fl.createTask(name = "dbImportSubscription", category = "sourcesql", position = "{\"x\":660.000, \"y\":495.000, \"z\":34}", status = 2, priority = 0)
 fl.createTask(name = "dbexport1", category = "sinkdb", position = "{\"x\":1320.000, \"y\":1100.000, \"z\":36}", status = 0, priority = 0)
 fl.createTask(name = "department_dataman", category = "datamanager", position = "{\"x\":990.000, \"y\":-770.000, \"z\":27}", status = 2, priority = 0)
+fl.createTask(name = "empty1", category = "sourceempty", position = "{\"x\":1430.000, \"y\":-770.000, \"z\":43}", status = 2, priority = 0)
 fl.createTask(name = "importDepartmentExcel", category = "sourceexcel", position = "{\"x\":825.000, \"y\":-770.000, \"z\":26}", status = 2, priority = 0)
 fl.createTask(name = "mg_ManagementGroups", category = "sourcejson", position = "{\"x\":440.000, \"y\":-275.000, \"z\":1}", status = 2, priority = 0)
 fl.createTask(name = "mg_dataman1", category = "datamanager", position = "{\"x\":550.000, \"y\":-275.000, \"z\":2}", status = 2, priority = 0)
