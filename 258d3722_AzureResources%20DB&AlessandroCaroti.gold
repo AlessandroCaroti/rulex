@@ -257,5 +257,3 @@ fl.setVariable(varname = "sorcesPath", type = "code", value = "\"//RulexDesktop/
 fl.setVariable(varname = "subscriptionList", type = "code", value = "[\"sub1\", \"sub2\"]", issensitive = 0)
 //Load Data
 //Set Plots
-//Set Telemetry
-//Set Documentation
