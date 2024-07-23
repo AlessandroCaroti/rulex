@@ -259,5 +259,3 @@ fl.setVariable(varname = "sorcesPathInstaller", type = "code", value = "\"//Rule
 fl.setVariable(varname = "subscriptionList", type = "code", value = "[\"sub1\", \"sub2\"]", issensitive = 0)
 //Load Data
 //Set Plots
-//Set Telemetry
-//Set Documentation
