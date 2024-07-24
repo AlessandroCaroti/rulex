@@ -121,7 +121,7 @@ fl.setHistoryCode(name = "annualBilling_Department", code = "//DATASET OPERATION
 fl.setHistoryCode(name = "annualBilling_Department", code = "//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute([\"Year\"], \"type\", [\"date\"])\n", id = 9, status = 2)
 fl.setHistoryCode(name = "annualBilling_Department", code = "//DATASET OPERATION\n//ADD ATTRIBUTES\nself.dataset.addAttribute([\"Year_str\"], [\"nominal\"], [\"input\"], True, False)\n", id = 10, status = 2)
 fl.setHistoryCode(name = "annualBilling_Department", code = "//DATASET OPERATION\n//FORMULA\n$\"Year_str\" = year($\"Year\")\n//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute(\"Year_str\", \"formula\", \"year($\\\"Year\\\")\")\n", id = 11, status = 2)
-fl.setHistoryCode(name = "annualBilling_Department", code = "//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute([\"Year_str\"], \"type\", [\"continuous\"])\n", id = 12, status = 2)
+fl.setHistoryCode(name = "annualBilling_Department", code = "//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute([\"Year_str\"], \"type\", [\"nominal\"])\n", id = 12, status = 2)
 fl.setHistoryCode(name = "dataman2", code = "//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute([\"resource_group_id\"], \"name\", [\"id\"])\n", id = 1, status = 2)
 fl.setHistoryCode(name = "dataman2", code = "//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute([\"billing_month\"], \"name\", [\"Month\"])\n", id = 2, status = 2)
 fl.setHistoryCode(name = "dataman2", code = "//DATASET OPERATION\n//EDIT ATTRIBUTES\nself.dataset.changeAttribute([\"cost\"], \"type\", [\"currency\"])\n", id = 3, status = 2)
